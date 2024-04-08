@@ -1,3 +1,5 @@
+#Roel Verbraaken, Colin Harmsen, Creative Technology Year 2.
+
 import cv2
 
 def main():
