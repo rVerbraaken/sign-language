@@ -23,12 +23,9 @@ def main():
             cv2.imwrite(file_name, frame)  # Save the image with the given label
             print(f"Image saved as {file_name}")
 
-
-
     # When everything done, release the capture
     cap.release()
     cv2.destroyAllWindows()
-
 
 if __name__ == "__main__":
     main()
